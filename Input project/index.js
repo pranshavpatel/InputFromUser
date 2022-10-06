@@ -1,10 +1,8 @@
-function returnfun() {
-  let x = document.getElementById("input").value;
-  document.createElement("ul");
-  document.cont.appendChild('ul');
-  // let a = document.getElementById("ul");
-  document.getElementById('ul').innerHTML = x;
+const returnfun = () => {
+  const x = document.getElementById("input").value;
+  const node = document.createElement("li");
+  const textnode = document.createTextNode(x);
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node);
   document.getElementById("input").value = " ";
   }
-  //x.value = a.value;
-  
