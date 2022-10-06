@@ -1,6 +1,10 @@
 function returnfun() {
-    var x = document.getElementById("input").value;
-    document.getElementById("output").value = x + " "+ output.value;
-    document.write("\n");
-    document.getElementById("input").value = " ";
+  let x = document.getElementById("input").value;
+  document.createElement("ul");
+  document.cont.appendChild('ul');
+  // let a = document.getElementById("ul");
+  document.getElementById('ul').innerHTML = x;
+  document.getElementById("input").value = " ";
   }
+  //x.value = a.value;
+  
